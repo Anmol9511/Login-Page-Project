@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+    background-image: url(./img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+
+
+}
+
+.box1{
+    width: 420px;
+    
+    border: black solid 2px ;
+
+
+    color: white;
+    border-radius: 20px;
+    padding: 30px 40px;
+
+    backdrop-filter: blur(10px);
+
+
+    
+    
+
+}
+
+.box1 h1,p{
+    color: black;
+    text-align: center;
+}
+
+#h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+p{
+    font-family: monospace;
+    font-size: 20px;
+    color: white;
+}
+
+.box1 .inputbox{
+    
+    /*  */
+    height: 40px;
+    background-color: transparent;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    color: white;
+
+    
+}
+
+.inputbox input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    
+    border: 2px solid grey;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.inputbox input::placeholder{
+    color: #fff;
+
+}
+
+
+.box1 .save{
+   display: flex;
+   justify-content: space-between;
+   font-size: 14.5px;
+   margin: -15px 0 15px;
+}
+
+.save a{
+    color: purple;
+    text-decoration: none;
+}
+
+.save a:hover{
+    text-decoration: underline;
+}
+
+.reg a{
+    text-decoration: none;
+    font-size: 16px;
+    color: purple;
+}
+
+.reg a:hover{
+    text-decoration: underline;
+    
+    
+}
+
+.reg p{
+    font-size: 16px;
+    color: #fff;
+}
+
+.box1{
+    
+}
+
+.box1 .btn{
+    width: 100%;
+    height: 35px;
+    background-color: rgb(10, 119, 152);
+    color:white;
+    font-size: 14px;
+    border: none;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-weight: 500;
+    
+
+    
+}
+
+.box1 .reg{
+    margin: 20px 10px 10px 0;
+}
+
+.box1 .btn:hover{cursor: pointer;}
